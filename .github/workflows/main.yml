@@ -3,7 +3,7 @@ name: TXT Uploader Auto Runner
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 7 * * *'  # रोज सुबह 7:00 UTC (12:30 IST)
+    - cron: '0 7 * * *'  # Every day 12:30 PM IST
 
 jobs:
   run-bot:
@@ -25,4 +25,6 @@ jobs:
 
       - name: Run Telegram Bot
         run: python3 handlers/ytc.py
-        
+
+
+---
