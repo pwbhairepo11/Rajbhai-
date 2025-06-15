@@ -1,0 +1,9 @@
+pyrogram
+aiohttp
+aiofiles
+tgcrypto
+requests
+wget
+hachoir
+beautifulsoup4
+yt-dlp
